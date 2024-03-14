@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Jockey One', sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+}
+
+#main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    box-shadow: rgba(46, 195, 240, 0.4) -5px 5px, rgba(46, 195, 240, 0.4) -10px 10px, rgba(46, 162, 240, 0.2) -15px 15px, rgba(46, 98, 240, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+#corpo {
+    display: flex;
+    flex-direction: column;
+}
+
+#icon {
+    width: 120px;
+    margin-top: 15px;
+}
+
+#user {
+    margin-top: 50px;
+    margin-bottom: 10px;
+ 
+}
+
+input {
+    padding-left: 20px;
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    border-color: rgba(0, 0, 0, 0.514);
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 238, 86, 0.425);
+    transition: 0.3s;
+    width: 220px;
+    font-size: 16px;
+}
+
+input:hover {
+    transition: 0.3s;
+    background-color: rgba(255, 238, 86, 0.425);
+}
+
+input::placeholder {
+
+    color: rgb(0, 0, 0);
+}
+
+button {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.438);
+    font-family: monospace;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+pre {
+    margin-top: 100px;
+    color: rgba(0, 0, 0, 0.486);
+}
+
+
